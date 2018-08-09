@@ -1,0 +1,15 @@
+{
+  "name": "modern_portofolio",
+  "version": "1.0.0",
+  "description": "Responsive portofolio website",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Adi Kurniawan",
+  "license": "MIT"
+}
