@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css" />
   <title>Adi's Home</title>
 </head>
@@ -20,8 +21,8 @@
     <nav class="main-nav" id="nav-menu">
       <ul class="main-nav__lists">
         <li class="main-nav__list"><a href="#">home</a></li>
-        <li class="main-nav__list"><a href="#about">about</a></li>
         <li class="main-nav__list"><a href="#projects">project</a></li>
+        <li class="main-nav__list"><a href="#about">about</a></li>
         <li class="main-nav__list"><a href="https://designwire.co/blog" target="_blank">blog</a></li>
       </ul>
     </nav>
@@ -37,57 +38,59 @@
     </section>
     <!-- Section 2: Projects -->
     <section class="projects" id="projects">
-      <h2>Project</h2>
+      <h1 class="section-title">Projects</h1>
       <div class="project-list">
         <div class="card">
-          <img src="./src/arduino.png" alt="electronics" height="100px" />
+          <img src="./src/book.png" alt="write tutorial book" height="80px" />
           <div class="project-list__labels">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+            <h4><b>Simple Line Follower Book Tutorial</b></h4>
+            <p>Contributed in wrting a published documentation tutorial: <em> Kilat Jago Membuat Robot, Dunia Komputer
+                Publishers,
+                Jakarta, 2012 </em></p>
           </div>
         </div>
         <div class="card">
-          <img src="./src/html5.png" alt="html5" height="100px" />
+          <img src="./src/ac.png" alt="develop ac remote control" width="150px" height="82px" />
           <div class="project-list__labels">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+            <h4><b>Centralize AC Remote Control </b></h4>
+            <p>Develop a remote control to an old-type centralize air conditioner using Arduino.</p>
           </div>
         </div>
         <div class="card">
-          <img src="./src/react.png" alt="reactjs" height="100px" />
+          <img src="./src/html5.png" alt="front end developer" width="128px" height="90px" />
           <div class="project-list__labels">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+            <h4><b>Front End Developer</b></h4>
+            <p>Not yet. But, I will try to come with my simple project from my experiment or following a tutorial.</p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="section-b" id="about">
-      <h2>About Me</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim
-        quo debitis at animi tenetur pariatur voluptatibus, blanditiis ipsa
-        commodi laudantium quos dolores illum, temporibus repudiandae
-        cupiditate. Magnam omnis beatae ullam quod temporibus dignissimos sequi
-        earum laudantium. Excepturi, sapiente inventore.
-      </p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p>aa</p>
-      <p></p>
+    <!-- Section 3: About me -->
+    <section class="about" id="about">
+      <h1 class="section-title">About Me</h1>
+      <img class="about__image" src="./src/adi2.png" alt="hi! How are you?" height="96px">
+      <div class="about__label">
+        <p>
+          Hi! I am Adi. Now, I live in Bandung. I am an Electronics Engineer. I have good experience in design
+          electronics system on microcontroller, espesially based on Arduino. I am not an artis or designer, but
+          occassionally, I like to improve my creativity by playing
+          with Inkscape to design a logo or poster. I found great passion to learn more about
+          Front End Development. I am considered myself as a new developer so be nice with me :D. Let's get connected.
+        </p>
+      </div>
+      <div class="about__contact">
+        <a href="https://github.com/kurniawan2805/"> <i class="fa fa-github" style="font-size:24px"></i></a>
+        <a href="mailto:kurniawan2805@gmail.com"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+        <a href="https://twitter.com/kurniawan2805"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+        <a href="https://www.linkedin.com/in/kurniawan2805/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+      </div>
     </section>
 
 
-    <footer>&copy 2019 | Adi Kurniawan</footer>
+    <footer class="main-footer">
+      <h3>&copy 2019 | Adi Kurniawan</h3>
+    </footer>
   </main>
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
