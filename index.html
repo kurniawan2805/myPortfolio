@@ -12,67 +12,82 @@
 
 <body>
   <header class="main-header">
-    <div class="main-header__bar" id="bar-menu">
-      <div class="main-header__bar--top"></div>
-      <div class="main-header__bar--middle"></div>
-      <div class="main-header__bar--bottom"></div>
+    <div class="toggle-menu" id="bar-menu">
+      <div class="toggle-menu__bar"></div>
+      <div class="toggle-menu__bar"></div>
+      <div class="toggle-menu__bar"></div>
     </div>
     <nav class="main-nav" id="nav-menu">
       <ul class="main-nav__lists">
         <li class="main-nav__list"><a href="#">home</a></li>
         <li class="main-nav__list"><a href="#about">about</a></li>
-        <li class="main-nav__list"><a href="#project">project</a></li>
+        <li class="main-nav__list"><a href="#projects">project</a></li>
         <li class="main-nav__list"><a href="/blog">blog</a></li>
       </ul>
     </nav>
   </header>
-
-  <section class="banner-hero">
-    <div class="banner-hero__background"></div>
-    <h1 class="banner-hero__title">Adi Kurniawan</h1>
-    <h2 class="banner-hero__title">Electronics Engineer | Front End Developer</h2>
-
-
-
-  </section>
-  <section class="section-a" id="project">
-    <h2>Project</h2>
-    <div class="class-list">
-      <div class="card">
-        <img src="./src/arduino.png" alt="electronics" height="100px" />
+  <main>
+    <!-- Section 1: Banner Hero -->
+    <section class="banner-hero">
+      <div class="banner-hero__background"></div>
+      <div class="banner-hero__labels">
+        <h1 class="banner-hero__title">Adi Kurniawan</h1>
+        <p class="banner-hero__subtitle">Electronics Engineer | Front End Developer</p>
       </div>
-      <div class="card">
-        <img src="./src/html5.png" alt="html5" height="100px" />
+    </section>
+    <!-- Section 2: Projects -->
+    <section class="projects" id="projects">
+      <h2>Project</h2>
+      <div class="project-list">
+        <div class="card">
+          <img src="./src/arduino.png" alt="electronics" height="100px" />
+          <div class="project-list__labels">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/html5.png" alt="html5" height="100px" />
+          <div class="project-list__labels">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/react.png" alt="reactjs" height="100px" />
+          <div class="project-list__labels">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <img src="./src/react.png" alt="reactjs" height="100px" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section-b" id="about">
-    <h2>About Me</h2>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim
-      quo debitis at animi tenetur pariatur voluptatibus, blanditiis ipsa
-      commodi laudantium quos dolores illum, temporibus repudiandae
-      cupiditate. Magnam omnis beatae ullam quod temporibus dignissimos sequi
-      earum laudantium. Excepturi, sapiente inventore.
-    </p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p>aa</p>
-    <p></p>
-  </section>
+    <section class="section-b" id="about">
+      <h2>About Me</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo enim
+        quo debitis at animi tenetur pariatur voluptatibus, blanditiis ipsa
+        commodi laudantium quos dolores illum, temporibus repudiandae
+        cupiditate. Magnam omnis beatae ullam quod temporibus dignissimos sequi
+        earum laudantium. Excepturi, sapiente inventore.
+      </p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p>aa</p>
+      <p></p>
+    </section>
 
-  <footer>&copy 2019 | Adi Kurniawan</footer>
 
+    <footer>&copy 2019 | Adi Kurniawan</footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
